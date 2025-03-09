@@ -1,0 +1,17 @@
+<div class="project-post">
+    <h2 class="post-title">
+        <a href="{{ include.url | relative_url }}">
+            {{ include.title }}
+        </a>
+    </h2>
+
+    <time datetime="{{ include.date | date_to_xmlschema }}" class="post-meta">{{ include.date | date_to_string }}</time>
+
+    <p class="post-excerpt">
+        {% if include.description %}
+        {{ include.description | strip_html }}
+        {% else %}
+        {{ include.excerpt | strip_html }}
+        {% endif %}
+    </p>
+</div>

@@ -1,0 +1,9 @@
+- title: Email
+  url: mailto:mihailonvojinovic@gmail.com
+  icon: fas fa-envelope
+- title: Github
+  url: https://github.com/mihna123
+  icon: fab fa-github
+- title: Linkedin
+  url: https://www.linkedin.com/in/mihailo-vojinovic
+  icon: fab fa-linkedin

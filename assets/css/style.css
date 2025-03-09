@@ -1,0 +1,6 @@
+.project-post {
+    border: 1px solid var(--border-color);
+    padding: 1rem;
+    border-radius: var(--border-radius);
+    margin-bottom: var(--spacer-2);
+}
