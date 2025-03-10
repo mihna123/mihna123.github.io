@@ -3,6 +3,7 @@ layout: post
 title:  "Project overview #1 - Pixelator 2.0"
 date:   2025-03-07 17:22:40 +0100
 categories: personal-projects web
+author: mihna123
 ---
 
 Pixelator is a **free online editor for animated sprites and pixel art** heavily inspired by 
