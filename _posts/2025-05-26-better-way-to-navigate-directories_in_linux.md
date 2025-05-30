@@ -2,7 +2,8 @@
 layout: post
 title:  "Better way of navigating directories in Linux"
 categories: tutorials linux
-author: mihna123
+athor: mihna123
+last_modified_at: 2025-05-30 16:21:30 +0100
 ---
 
 Have you ever thought: "Maan I wish I could navigate trough my directories 
@@ -20,6 +21,12 @@ the same old sameold: Type in `cd` then try to remember where the directory
 I'm looking for is. Maybe Documents? Maybe Projects? Who knows? We will have to 
 try them all. Eventualy you find it and its all good, you wasted a couple of 
 seconds and who cares?
+
+This is what the classic experience looked like:
+
+<p align="center">
+    <img style="text: centered" src="{{"/assets/images/fzf-01.gif" | prepend: site.url}}" width="800" alt="Navigating directories in linux using cd"/>
+</p>
 
 I did it like this for years until I stumbled upon this interesting tool called
 **the fuzzy finder** or **fzf**. This tool is just so powerfull and fast. What 
@@ -52,3 +59,8 @@ Add this line at the end of the file:
 `$` sign is very important. If you type it in withought the forward slash, the 
 command is going to execute just once every time you open up your shell.
 
+This is the end result:
+
+<p align="center">
+    <img style="text: centered" src="{{"/assets/images/fzf-02.gif" | prepend: site.url}}" width="800" alt="Navigating directories in linux using fzf"/>
+</p>
