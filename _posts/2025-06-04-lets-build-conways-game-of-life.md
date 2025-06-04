@@ -307,8 +307,8 @@ document.querySelector("button.stop-btn").onclick = () => {
 
 # The end result
 
-Feels good when you finish a project like this. You can check out the result
-below and if you want a full source code, go to the [github link](https://www.github.com/mihna123/game-of-life){:target="_blank"}.
+Feels good when you finish a project like this. Play the game on [github pages](https://mihna123.github.io/game-of-life){:target="_blank"}
+or check out the result below and if you want the full source code, go to the [github link](https://www.github.com/mihna123/game-of-life){:target="_blank"}.
 
 
 <p align="center">
