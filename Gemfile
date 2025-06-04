@@ -3,6 +3,7 @@ source "https://rubygems.org"
 # custom
 
 gem "monophase"
+gem "jekyll-sitemap"
 
 # Github pages gem
 gem "github-pages", "~> 232", group: :jekyll_plugins
