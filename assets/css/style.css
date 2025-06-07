@@ -5,7 +5,40 @@
     margin-bottom: var(--spacer-2);
 }
 
+section.comments {
+    border-top: 1px solid var(--border-color);
+}
+
 p,
 li {
     font-size: 1rem;
+}
+
+.simple-comments-form {
+    margin-bottom: 20px;
+}
+
+.simple-comments-form button[type="submit"] {
+    margin-top: 5px;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    border: none;
+    color: inherit;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+.simple-comments-form button[type="submit"]:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.simple-comments p {
+    font-size: initial;
+    margin: 0;
+}
+
+.simple-comments li>p:last-of-type {
+    margin-left: 20px;
+    padding-left: 5px;
+    background-color: rgba(0, 0, 0, 0.5);
 }
